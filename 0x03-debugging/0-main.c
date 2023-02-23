@@ -4,6 +4,7 @@
  * main - Tests function if integer is positive or negetive
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
@@ -12,5 +13,4 @@ int main(void)
 	positive_or_negetive(i);
 
 	return (0);
-
 }
