@@ -1,14 +1,29 @@
-/**
- * _abs - computes the apsolute value of an integer
- *
- * @a: number whose absolute value is to be found
- *
- * Return: Absolute valuse of the number
- */
-int _abs(int a)
-{
-	if (a < 0)
-		a *= -1;
-	return (0);
+#include "main.h"
 
-}
+
+
+        /**
+
+         * _abs - computes the absolute value of an integer
+
+         * @n: the int to check
+
+         * Return: the absolute value of int
+
+         */
+
+        int _abs(int n)
+
+        {
+
+                if (n >= 0)
+
+                {
+
+                        return (n);
+
+                }
+
+                return (-n);
+
+        }
